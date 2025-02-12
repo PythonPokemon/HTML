@@ -8,7 +8,7 @@
 <!--kommentar-->
 <body>
     <h2>HTML</h2>
-    <p>das ist ein standart formular!</p>
+    <p>das ist ein standart formular zum Registrieren auf einer Webseite!</p>
     <form action="/login.php">
         Benutzername: <br>
         <input type="text" name="benutzername">
@@ -33,7 +33,7 @@
     <h2>E-mail</h2>
     <form>
         E-mail
-    <input type="email" name="email">
+    <input type="email" name="email" minlength="8" maxlength="30" size="40" autocomplete="on" placeholder="deine e-mailadresse">
     </form>
     <h2>Farbe</h2>
     <form>
@@ -54,6 +54,11 @@
     <form>
         Wähle deine Datei aus: <br>
         <input type="file" name="datei"><br>
+    </form>
+    <h2>Zahl</h2>
+    <form>
+        Wieviel leute seid ihr? <br>
+        <input type="number" name="anzahl" min="1" max="20" ><br>
     </form>
 
     <a href="..\index.html">zurück</a>
