@@ -8,6 +8,7 @@
 <!--kommentar-->
 <body>
     <h2>HTML</h2>
+    <p>das ist ein standart formular!</p>
     <form action="/login.php">
         Benutzername: <br>
         <input type="text" name="benutzername">
@@ -16,8 +17,19 @@
         <input type="password" name="password">
         <br>
         <input type="submit" value="Einlogen">
-
     </form>
+    <p>das ist ein formular mit <b>radiobutton</b> und einer umrandung!</p>
+    <fieldset>
+        <input type="radio" name="geschlecht" value="männlich">männlich<br>
+        <input type="radio" name="geschlecht" value="weiblich">weiblich<br>
+        <input type="radio" name="geschlecht" value="diverse">diverse<br>
+    </fieldset>
+    <p>das ist ein formular mit <b>Checkbox</b> und einer umrandung!</p>
+    <fieldset>
+        <input type="checkbox" name="belag" value="salami">salami<br>
+        <input type="checkbox" name="belag" value="tomaten">tomaten<br>
+        <input type="checkbox" name="belag" value="käse">käse<br>
+    </fieldset>
 
     <a href="..\index.html">zurück</a>
 </body>
